@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/btn_space.png" type="Texture" id=1]
+[ext_resource path="res://scenes/scripts/GoNextLevel.gd" type="Script" id=3]
+
+[node name="Level" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="BtnSpace" type="Sprite" parent="."]
+position = Vector2( 586, 450 )
+z_index = 10
+texture = ExtResource( 1 )
